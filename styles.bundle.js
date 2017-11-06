@@ -1,12 +1,5 @@
 webpackJsonp(["styles"],{
 
-/***/ "../../../../../src/assets/background.png":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "background.7d23fc869e6d96b1cb0d.png";
-
-/***/ }),
-
 /***/ "../../../../../src/styles.scss":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -69,7 +62,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "html {\n  background-image: url(" + __webpack_require__("../../../../../src/assets/background.png") + ");\n  background-repeat: no-repeat;\n  background-size: cover; }\n", ""]);
+exports.push([module.i, "html {\n  background-image: url(\"https://sheldonchaves.github.io/fusionchat/assets/background.png\");\n  background-repeat: no-repeat;\n  background-size: cover; }\n", ""]);
 
 // exports
 
