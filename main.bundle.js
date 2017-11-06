@@ -123,7 +123,7 @@ AppModule = __decorate([
 /***/ "../../../../../src/app/components/main/main.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"frame\">\n  <ul #chatList>\n    <li *ngFor=\"let message of messages\" class=\"message\" [ngClass]=\"{'message-right':message.from.name == 'me'}\">\n        <img class=\"img-circle\" src=\"{{'https://sheldonchaves.github.io/fusionchat/assets/' + message.from.image}}\">\n        <span class=\"text\">\n                {{message.text}}\n        </span>\n        <span class=\"time\">\n                {{message.time}}\n        </span>\n    </li>\n  </ul>\n  <div class=\"input-box\">\n    <input\n        #inputUser\n        (keyup.enter)=\"onEnter(inputUser.value)\"\n        (blur)=\"onEnter(inputUser.value)\"\n        class=\"input-chat\"\n        placeholder=\"message\">\n  </div>\n</div>\n"
+module.exports = "<div class=\"frame\">\n  <ul #chatList>\n    <li *ngFor=\"let message of messages\" class=\"message\" [ngClass]=\"{'message-right':message.from.name == 'me'}\">\n        <img class=\"img-circle\" src=\"{{'assets/' + message.from.image}}\">\n        <span class=\"text\">\n                {{message.text}}\n        </span>\n        <span class=\"time\">\n                {{message.time}}\n        </span>\n    </li>\n  </ul>\n  <div class=\"input-box\">\n    <input\n        #inputUser\n        (keyup.enter)=\"onEnter(inputUser.value)\"\n        (blur)=\"onEnter(inputUser.value)\"\n        class=\"input-chat\"\n        placeholder=\"message\">\n  </div>\n</div>\n"
 
 /***/ }),
 
